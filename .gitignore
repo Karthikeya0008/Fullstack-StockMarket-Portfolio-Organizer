@@ -3,3 +3,7 @@ node_modules/
 build/
 dist/
 coverage/
+# Secrets
+backend/firebase-key.json
+backend/config/serviceAccountKey.json
+.env
