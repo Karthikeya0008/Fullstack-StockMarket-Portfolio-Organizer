@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1757531455736,
+    "symbol": "TATAMOTORS.NS",
+    "name": "TATA MOTORS",
+    "price": 0
+  },
+  {
+    "id": 1757531652670,
+    "symbol": "RELIANCE.NS",
+    "name": "RELIANCE",
+    "price": 0
+  },
+  {
+    "id": 1760470750413,
+    "symbol": "^NSEI",
+    "name": "NIFTY 50",
+    "price": 0
+  },
+  {
+    "id": 1761810075794,
+    "symbol": "HDFCBANK.NS",
+    "name": "HDFC BANK",
+    "price": 0
+  },
+  {
+    "id": 1761825797605,
+    "symbol": "WIPRO.NS",
+    "name": "WIPRO",
+    "price": 0
+  },
+  {
+    "id": 1761828307052,
+    "symbol": "ADANIENT.NS",
+    "name": "ADANI ENTERPRISES",
+    "price": 0
+  }
+]

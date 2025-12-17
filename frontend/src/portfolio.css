@@ -1,0 +1,96 @@
+.portfolio-container {
+  padding: 2rem;
+  background-color: #0f172a;
+  min-height: 100vh;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.portfolio-title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: #38bdf8;
+}
+
+.add-card {
+  background: #1e293b;
+  border-radius: 12px;
+  padding: 1.5rem;
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  box-shadow: 0 4px 12px rgba(0, 255, 255, 0.1);
+}
+
+.input-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  justify-content: center;
+}
+
+.input-group input {
+  padding: 0.7rem;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background-color: #334155;
+  color: white;
+  width: 180px;
+}
+
+.add-btn {
+  background: linear-gradient(90deg, #06b6d4, #3b82f6);
+  color: white;
+  border: none;
+  padding: 0.7rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.add-btn:hover {
+  transform: scale(1.05);
+  background: linear-gradient(90deg, #3b82f6, #06b6d4);
+}
+
+.investment-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.investment-card {
+  background: #1e293b;
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: left;
+  box-shadow: 0 4px 10px rgba(56, 189, 248, 0.1);
+  transition: 0.3s;
+}
+
+.investment-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 14px rgba(56, 189, 248, 0.2);
+}
+
+.delete-btn {
+  background: #ef4444;
+  border: none;
+  color: white;
+  padding: 0.4rem 0.7rem;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  transition: 0.2s;
+}
+
+.delete-btn:hover {
+  background: #dc2626;
+}
+
+.no-data {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #94a3b8;
+}

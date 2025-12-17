@@ -1,0 +1,32 @@
+[
+  {
+    "name": "TATA MOTORS",
+    "symbol": "TATAMOTORS.NS",
+    "buyPrice": 100,
+    "quantity": 1000
+  },
+  {
+    "name": "RELIANCE",
+    "symbol": "RELIANCE.NS",
+    "buyPrice": 200,
+    "quantity": 100
+  },
+  {
+    "name": "COAL INDIA",
+    "symbol": "COALINDIA.NS",
+    "buyPrice": 50,
+    "quantity": 15
+  },
+  {
+    "name": "LARSEN & TOUBRO",
+    "symbol": "LT.NS",
+    "buyPrice": 100,
+    "quantity": 50
+  },
+  {
+    "name": "WIPRO",
+    "symbol": "WIPRO.NS",
+    "buyPrice": 200,
+    "quantity": 50
+  }
+]
