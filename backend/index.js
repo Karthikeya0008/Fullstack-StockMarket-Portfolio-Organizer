@@ -9,6 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 // Test Firebase connection
+
 app.get("/test-firebase", async (req, res) => {
   try {
     const testRef = db.collection("test").doc("check");
@@ -19,6 +20,7 @@ app.get("/test-firebase", async (req, res) => {
     res.status(500).json({ success: false, error: err.message });
   }
 });
+
 
 // Investments - Firestore version
 app.get("/investments", async (req, res) => {
@@ -190,7 +192,7 @@ app.get("/prices", async (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  res.send("YieldWise backend running with Firestore");
+  res.send("FinWise backend running with Firestore");
 });
 
 const PORT = 5000;

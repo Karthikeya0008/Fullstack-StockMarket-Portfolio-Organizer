@@ -1,0 +1,10 @@
+1st Terminal
+
+cd backend
+node index.js
+
+2nd Terminal
+
+cd frontend
+npm run dev 
+

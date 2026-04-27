@@ -92,7 +92,7 @@ export default function AccountDetails() {
                 Account Details
               </h2>
               <div className="space-y-3 text-sm text-gray-700">
-                <div className="flex justify-between"><span>Name as per PAN:</span><span className="font-medium">DARA KARTHIKEYA</span></div>
+                <div className="flex justify-between"><span>Name as per PAN:</span><span className="font-medium">KARTHIKEYA</span></div>
                 <div className="flex justify-between"><span>PAN Number:</span><span className="font-medium">PAHQC5564K</span></div>
                 <div className="flex justify-between"><span>Client ID:</span><span className="font-medium">2024653987145</span></div>
                 <div className="flex justify-between"><span>BO ID:</span><span className="font-medium">2024017145</span></div>
@@ -120,7 +120,7 @@ export default function AccountDetails() {
                     ₹{netGain.toFixed(2)} ({netGainPct.toFixed(1)}%)
                   </span>
                 </div>
-                <div><strong>Gmail Linked:</strong> dara.karthikeya18@gmail.com</div>
+                <div><strong>Gmail Linked:</strong> dara.karthikeya2023@gmail.com</div>
                 <div><strong>Support Code:</strong> 24145</div>
               </div>
             </div>
@@ -131,10 +131,10 @@ export default function AccountDetails() {
                 Recent Activity
               </h2>
               <ul className="list-disc ml-5 text-sm text-gray-600 space-y-1">
-                <li>Changed Password on 31/08/2025</li>
-                <li>Generated Tax Report (Jul 2025)</li>
-                <li>Added ICICI Silver ETF (Aug 2025)</li>
-                <li>Added GOLDBEES ETF (July 2025)</li>
+                <li>Added Nifty50 on 10-03-2026</li>
+                <li>Generated Tax Report (March 2026)</li>
+                <li>Added ICICI Silver ETF (March 2026)</li>
+                <li>Last Changed Password on 09/03/2026</li>
               </ul>
             </div>
           </div>

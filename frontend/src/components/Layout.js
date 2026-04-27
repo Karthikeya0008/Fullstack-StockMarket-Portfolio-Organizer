@@ -111,7 +111,7 @@ export default function Layout({ children }) {
           <div className="flex items-center gap-3">
             <img src={logo} alt="YieldWise Logo" className="w-10 h-10 object-contain" />
             <h1 className="text-lg font-semibold text-[#1E3A8A] tracking-wide drop-shadow-sm">
-              YIELDWISE
+              FINWISE
             </h1>
           </div>
 
@@ -282,19 +282,19 @@ export default function Layout({ children }) {
       {/* FOOTER */}
       <footer className="bg-gradient-to-r from-[#1E3A8A] to-[#3B82F6] text-white mt-auto py-8 shadow-inner">
         <div className="max-w-7xl mx-auto px-4 text-center space-y-4">
-          <h3 className="text-lg font-semibold">ABOUT YIELDWISE</h3>
+          <h3 className="text-lg font-semibold">ABOUT FINWISE</h3>
           <p className="text-sm max-w-3xl mx-auto leading-relaxed">
-            YieldWise is a smart investment and portfolio management platform designed to help users 
+            FinWise is a smart investment and portfolio management platform designed to help users 
             track holdings, generate tax reports, and analyze financial diversification — all in one unified dashboard. 
             This project is built by 
           </p>
           <div className="border-t border-white/40 pt-4 text-sm">
             <p>
-              <strong>DARA KARTHIKEYA</strong> (23MIC0008) AND{" "}
-              <strong>DANDU SHAIK MAHEWISH</strong> (23MIC0062)
+              <strong>Created By: Dara Karthikeya, Sahsra Reddy, Mnavitha Reddy, Yagnasree Chowdary</strong>{" "}
+              
             </p>
             <p className="mt-1 text-white/80">
-              © {new Date().getFullYear()} YieldWise — All Rights Reserved
+              © {new Date().getFullYear()} FinWise — All Rights Reserved
             </p>
           </div>
         </div>
@@ -302,3 +302,4 @@ export default function Layout({ children }) {
     </div>
   );
 }
+
